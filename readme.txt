@@ -1,7 +1,6 @@
 Règles du jeu
 
 
-
 -L’objectif du jeu est de prendre en charge un nombre maximal de patient en minimisant leur attente.
 
 
