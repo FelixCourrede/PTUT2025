@@ -1,11 +1,15 @@
 import React from 'react';
+import './StartScreen.css';
+//import image from '../images/lotus.png'; 
 
 const StartScreen = () => {
   return (
-    <div>
-      <h1>Bienvenue à l'écran de démarrage</h1>
-    </div>
-  );
+
+        <div className="container">
+          <button className="center-button">Commencer une partie</button>
+        </div>
+    );
 };
+
 
 export default StartScreen;

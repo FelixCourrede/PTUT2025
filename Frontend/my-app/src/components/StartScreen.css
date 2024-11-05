@@ -1,0 +1,31 @@
+/* Pour changer la couleur de fond de toute la page */
+body {
+    background-color: #EEDBFC; /* Couleur de fond spécifique */
+    margin: 0; /* Enlève les marges par défaut du body */
+    font-family: Arial, sans-serif; /* Définit une police de caractères */
+    height: 100vh; /* Prend toute la hauteur de la vue */
+}
+
+
+/* Conteneur pour centrer le bouton */
+.container {
+    display: flex; /* Utilise Flexbox pour le centrage */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Prend toute la hauteur de la vue */
+}
+
+.center-button {
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte du bouton */
+    font-size: 16px; /* Taille de la police du texte */
+    border: none; /* Enlève la bordure par défaut */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    background-color: #fff; /* Couleur de fond du bouton */
+    color: #333; /* Couleur du texte */
+    cursor: pointer; /* Change le curseur au survol */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre au bouton */
+}
+
+.center-button:hover {
+    background-color: #f0f0f0; /* Change la couleur de fond au survol */
+}
