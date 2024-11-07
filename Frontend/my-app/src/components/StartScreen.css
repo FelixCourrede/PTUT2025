@@ -29,3 +29,36 @@ body {
 .center-button:hover {
     background-color: #f0f0f0; /* Change la couleur de fond au survol */
 }
+
+.image{
+    width: 7%;
+    height: auto;
+    margin:2%;
+    
+}
+
+.logo{
+    width: 25%;
+    height: auto;
+    margin-bottom: 20px
+}
+
+.startGame {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments de la section startGame verticalement */
+    justify-content: center; /* Centre les éléments à l'intérieur du conteneur */
+    align-items: center; /* Centre les éléments horizontalement */
+  }
+
+.image-button{
+    background: none; /* Retire le fond du bouton */
+    border: none; /* Retire la bordure du bouton */
+    padding: 0; /* Retire l'espace autour de l'image */
+    cursor: pointer; /* Change le curseur pour indiquer que l'élément est cliquable */
+}
+.image-button img {
+    width: 5%; /* Vous pouvez ajuster la taille de l'image */
+    height: auto; /* Assure que l'image conserve son ratio */
+  }
+
+
