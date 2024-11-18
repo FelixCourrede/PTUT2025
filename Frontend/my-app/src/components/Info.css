@@ -1,0 +1,22 @@
+.info {
+    /* Ajoutez les styles nécessaires pour votre classe .info */
+  }
+  
+  .title img {
+      width: 30px; /* Ajustez la taille de l'image si nécessaire */
+      height: auto;
+  }
+  
+  ul.rules {
+      list-style-type: square; /* Style des puces (carrées) */
+      list-style-position: outside; /* Positionner les puces à l'extérieur du texte */
+      padding-left: 30px; /* Ajoutez de l'espace à gauche pour les puces */
+      font-family: Arial, sans-serif; /* Police de la liste */
+      margin: 0; /* Enlève les marges par défaut */
+  }
+  
+  ul.rules li {
+      margin-bottom: 10px; /* Espacement entre les éléments */
+      padding-left: 10px; /* Ajoute un petit espace pour séparer la puce du texte */
+  }
+  

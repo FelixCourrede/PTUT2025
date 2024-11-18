@@ -1,64 +1,71 @@
-/* Pour changer la couleur de fond de toute la page */
 body {
-    background-color: #EEDBFC; /* Couleur de fond spécifique */
-    margin: 0; /* Enlève les marges par défaut du body */
-    font-family: Arial, sans-serif; /* Définit une police de caractères */
-    height: 100vh; /* Prend toute la hauteur de la vue */
+    background-color: #EEDBFC;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
 }
 
-
-/* Conteneur pour centrer le bouton */
+/* Conteneur principal qui prend toute la hauteur de la page */
 .container {
-    display: flex; /* Utilise Flexbox pour le centrage */
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
-    height: 100vh; /* Prend toute la hauteur de la vue */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative; /* Permet de positionner les éléments en position absolue */
 }
 
+/* Bouton info en haut à droite */
+.image-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Taille de l'image du bouton info */
+.image-button img {
+    width: 30px; /* Ajustez la taille si besoin */
+    height: auto;
+}
+
+/* Logo centré */
+.logo {
+    width: 25%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+/* Conteneur du bouton de début de jeu */
+.startGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bouton "Commencer une partie" */
 .center-button {
-    padding: 10px 20px; /* Ajoute de l'espace autour du texte du bouton */
-    font-size: 16px; /* Taille de la police du texte */
-    border: none; /* Enlève la bordure par défaut */
-    border-radius: 5px; /* Arrondit les coins du bouton */
-    background-color: #fff; /* Couleur de fond du bouton */
-    color: #333; /* Couleur du texte */
-    cursor: pointer; /* Change le curseur au survol */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre au bouton */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
 }
 
 .center-button:hover {
-    background-color: #f0f0f0; /* Change la couleur de fond au survol */
+    background-color: #f0f0f0;
 }
 
-.image{
+/* Images de lotus au-dessus et en dessous du bouton */
+.image {
     width: 7%;
     height: auto;
-    margin:2%;
-    
+    margin: 0px 0;
 }
-
-.logo{
-    width: 25%;
-    height: auto;
-    margin-bottom: 20px
-}
-
-.startGame {
-    display: flex;
-    flex-direction: column; /* Aligne les éléments de la section startGame verticalement */
-    justify-content: center; /* Centre les éléments à l'intérieur du conteneur */
-    align-items: center; /* Centre les éléments horizontalement */
-  }
-
-.image-button{
-    background: none; /* Retire le fond du bouton */
-    border: none; /* Retire la bordure du bouton */
-    padding: 0; /* Retire l'espace autour de l'image */
-    cursor: pointer; /* Change le curseur pour indiquer que l'élément est cliquable */
-}
-.image-button img {
-    width: 5%; /* Vous pouvez ajuster la taille de l'image */
-    height: auto; /* Assure que l'image conserve son ratio */
-  }
-
-
