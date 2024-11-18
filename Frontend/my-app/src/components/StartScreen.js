@@ -9,7 +9,7 @@ const StartScreen = () => {
     navigate('/info');  // Navigation vers la page Info
   }
   const handleHospitalClick = () => {
-    navigate('/hospital');  // Navigation vers la page Info
+    navigate('/chooseHospital');  // Navigation vers la page Info
   };
 
   return (
